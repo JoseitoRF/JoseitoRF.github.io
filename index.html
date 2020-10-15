@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-<header>
+<header class="hide" id="p">
     <div class="navbar-fixed" >
         <nav class="blue">
             <div class="nav-wrapper container  "> 
@@ -39,7 +39,61 @@
         </nav>
     </div>
 </header>
-<div class="row">
+<div class="center section" id="pre">
+<div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-red ">
+        <div class="circle-clipper left">
+            <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+            <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+            <div class="circle"></div>
+        </div>
+        <div class="gap-path">
+            <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div class="spinner-layer spinner-yellow">
+        <div class="circle-clipper left">
+            <div class="circle"></div>
+        </div>
+        <div class="gap-path">
+            <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div class="spinner-layer spinner-green">
+        <div class="circle-clipper left">
+            <div class="circle"></div>
+        </div>
+        <div class="gap-path">
+            <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+            <div class="circle"></div>
+        </div>
+    </div>
+</div>
+</div> 
+
+<div class="hide" id="Tu">
+    <div class="parallax">
+        <img src="https://images.pexels.com/photos/3660732/pexels-photo-3660732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    </div>
+</div>
+ <div class="hide" id="to">
     <aside class="col s12 m3 l3 xl3 grey lighten-2">
      <div class="card medium">
          <div class="card-content">
@@ -219,16 +273,48 @@
         </div>
        </div></article>
       <article>
-          <div class="col s12 ">
-              <blockquote class="section">Nota:Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex maxime numquam deserunt, nisi odit velit libero? Natus impedit, aperiam accusantium nostrum distinctio laborum voluptate recusandae et a consectetur nobis id sit quod dolores sapiente, necessitatibus similique laboriosam possimus dolorem?</blockquote>
+          <div class="col s12 scrollspy" id="p1">
+            <h3>1</h3>
+            <blockquote class="section">Nota:Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex maxime numquam deserunt, nisi odit velit libero? Natus impedit, aperiam accusantium nostrum distinctio laborum voluptate recusandae et a consectetur nobis id sit quod dolores sapiente, necessitatibus similique laboriosam possimus dolorem?</blockquote>
              <p class=" section flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repudiandae aut, corrupti officia porro doloremque harum facere necessitatibus, dolorum ad sapiente expedita. Magni et modi consequatur odio voluptatem. Repellendus, inventore.</p>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsa, a minus et modi cum recusandae rem odio necessitatibus laborum repellendus explicabo voluptates fugit, mollitia voluptatem numquam sed sunt ducimus!</p>
           </div>
+          <div class="col s12  scrollspy" id="p2"    >
+            <h3>2</h3>
+            <blockquote class="section">Nota:Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex maxime numquam deserunt, nisi odit velit libero? Natus impedit, aperiam accusantium nostrum distinctio laborum voluptate recusandae et a consectetur nobis id sit quod dolores sapiente, necessitatibus similique laboriosam possimus dolorem?</blockquote>
+           <p class=" section flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repudiandae aut, corrupti officia porro doloremque harum facere necessitatibus, dolorum ad sapiente expedita. Magni et modi consequatur odio voluptatem. Repellendus, inventore.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsa, a minus et modi cum recusandae rem odio necessitatibus laborum repellendus explicabo voluptates fugit, mollitia voluptatem numquam sed sunt ducimus!</p>
+        </div>
+        <div class="col s12  scrollspy" id="p3">
+            <h3>3</h3>
+            <blockquote class="section">Nota:Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex maxime numquam deserunt, nisi odit velit libero? Natus impedit, aperiam accusantium nostrum distinctio laborum voluptate recusandae et a consectetur nobis id sit quod dolores sapiente, necessitatibus similique laboriosam possimus dolorem?</blockquote>
+           <p class=" section flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repudiandae aut, corrupti officia porro doloremque harum facere necessitatibus, dolorum ad sapiente expedita. Magni et modi consequatur odio voluptatem. Repellendus, inventore.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsa, a minus et modi cum recusandae rem odio necessitatibus laborum repellendus explicabo voluptates fugit, mollitia voluptatem numquam sed sunt ducimus!</p>
+        </div>
       </article>
   </div>
     </section>
     <div class=" col  m1 l2 xl2 hide-on-med-and-down">
         <h1>hok</h1>
+        <div class="row card-panel">
+            <form >
+                <div class="col 12 input-field">
+                    <i class="material-icons  prefix">account_circle</i>
+                    <input type="text" id="Usuario"class="validate autocomplete"  title="Ingrese Usuario" required>
+                    <label for="Usuario">Usuario</label>
+                </div>
+                <div class="col 12 input-field">
+                    <input type="password"class="validate autocomplete" id="pass" required title="Ingrese Contraseña">
+                    <label for="pass">Contraseña</label>
+                </div>
+            </form>
+        </div>
+        <div class="pinned"> <ul class=" table-of-contents">
+                <li><a href="#p1">p1</a></li>
+            </ul></div>
+           
+        
+      
     </div>
     <footer class="col s12 m12 l12 xl12 red">
     <div class="row section">
@@ -257,7 +343,7 @@
         </ul>
     </div>
     </div>
-</div>
+</div> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
    document.addEventListener('DOMContentLoaded', function(){
@@ -269,7 +355,39 @@
     var instances = M.FloatingActionButton.init(elems,{
         toolbarEnabled:true
     });
+    var elems = document.querySelectorAll('.autocomplete');
+    var instances = M.Autocomplete.init(elems,{
+        data:{
+            "hola":null,
+            "huedo": 'https://placehold.it/250x250'
+        }
+        ,
+        onAutocomplete:function(){
+            console.log( document.getElementsByTagName("section"))
+            document.getElementsByTagName("section")[0].classList="hide"
+           
+        }
+    });
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems,{
+        scrollOffset:50
+    });
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.pushpin');
+    var instances = M.Pushpin.init(elems);
   });
     </script>
+    <script>
+      window.addEventListener("load",()=>{
+        setTimeout(P,4000)
+        function P(){
+            document.getElementById("pre").className="hide"
+            document.getElementById("to").className="row"
+            document.getElementById("Tu").className="parallax-container "
+            document.getElementById("p").className=" "
+        }
+        
+    })</script>
 </body>
 </html>
