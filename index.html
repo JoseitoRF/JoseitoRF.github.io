@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
+    <div id="Preloader" style="padding-top: 20%;"class="center ">
+        <div  class="preloader-wrapper  active big">
+            <div class="spinner-layer  spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-path">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="todo" class="hide">
     <header>
         <nav class=" grey darken-3">
             <div class="nav-wrapper container">
@@ -28,15 +46,14 @@
                 <a  href="#" class="name"><span class="white-text">JoseitoRF89</span></a>
                 <a href="#" class="email"><span class="white-text">JoseitoRF89@gmail.com</span></a>
                 </li>
-                <li class="divider"></li>
-                <li><a href="#">Enlace1</a></li>
-                <li><a href="#">Enlace2</a></li>
-                <li><a href="#">Enlace3</a></li>
-                <li><a href="#">Enlace4</a></li>
+                <li><a class="black-text modal-trigger" data-target="modal">Productos</a></li>
+                    <li><a class="black-text" href="#">Enlace2</a></li>
+                    <li><a class="black-text" href="#">Enlace3</a></li>
+                    <li><a  class="black-text"href="#">Enlace4</a></li>
             </ul>
 
              <ul id="Drop"class=" teal white-text dropdown-content">
-                    <li><a class="white-text" href="#">Enlace1</a></li>
+                    <li><a class="white-text modal-trigger" data-target="modal">Productos</a></li>
                     <li><a class="white-text" href="#">Enlace2</a></li>
                     <li><a class="white-text" href="#">Enlace3</a></li>
                     <li><a  class="white-text"href="#">Enlace4</a></li>
@@ -44,22 +61,125 @@
         </nav>
     </header>
 
-<div class="row">
-    <div class="parallax-container">
+<div id="modal"class="modal modal-fixed-footer">
+    <div class="modal-content">  
+          <h3>Herramientas</h3>
+          <div class="row">
+              <div class="col s12 m6 l4 xl4">
+
+                <div class="card">
+                    <div class="card-image">
+                        <img  src="https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        <span class="card-title"> Producto</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio?</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#"class="btn blue">Comprar</a>
+                    </div>
+                </div>
+                  <div class="card">
+                      <div class="card-image">
+                          <img src="https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                          <span class="card-title">Producto</span>
+                      </div>
+                      <div class="card-content">
+                       
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio?</p>
+                      </div>
+                      <div class="card-action">
+                          <a href="#"class="btn blue">Comprar</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m6 l4 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img  src="https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        <span class="card-title">Producto</span>
+                    </div>
+                    <div class="card-content">
+                     
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio?</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#"class="btn blue">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        <span class="card-title">Producto</span>
+                    </div>
+                    <div class="card-content">
+                     
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio?</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#"class="btn blue">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4 xl4">
+                <div class="card">
+                    <div class="card-image">
+                        <img  src="https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        <span class="card-title">Producto</span>
+                    </div>
+                    <div class="card-content">
+                     
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio?</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#"class="btn blue">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://images.pexels.com/photos/175039/pexels-photo-175039.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        <span class="card-title">Producto</span>
+                    </div>
+                    <div class="card-content">
+                     
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, distinctio?</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#"class="btn blue">Comprar</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="btn modal-close red">Cerrar</a>
+        </div>
+</div>
+
+<div class="parallax-container">
         <div class="parallax">
             <img src="calle.jpg" alt="">
         </div>
     </div>
-    <div class="col l12 black white-text">
-        <h5 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minus ad. Reprehenderit molestias nisi excepturi debitis fugiat ea, ipsa impedit atque exercitationem tempora consequuntur animi ipsum dicta! Autem, facere dolores.</p>
+ <div class="  black white-text center">
+     <div class="container">
+         <div class="section">
+             <h5 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minus ad. Reprehenderit molestias nisi excepturi debitis fugiat ea, ipsa impedit atque exercitationem .</p>
+         </div>
+     </div>
+        
     </div>
-    <div class="col l3 teal lighten-1">
-        <aside style="width: 316px;margin-left: -11px;" class="teal lighten-2 pushpin section">  
-                <h3 class="container">Login</h3>
+<div class="row">
+    
+   
+    
+        <aside  class=" col l3 pushpin ">  
+                <h3 class="center">Login</h3>
             <form >
              <div class="input-field">
                 <i class="material-icons prefix">login</i>
-                <input type="text"class="validated"  id="Usuario" autocomplete="on" required title="Ingrese Usuario">
+                <input type="text" id="Usuario" class="validate" required title="Ingrese Usuario">
                 <label for="Usuario">Ingrese Usuario</label>
             </div>
                 <div class="input-field">
@@ -68,13 +188,13 @@
                     <label for="Pass">Ingrese Contraseña</label>
                 </div>
                 <div class="container"> 
-                    <a href="#"type="submit" class="btn black white-text waves-effect waves-light">Ingresar</a>
+                    <a href="#"type="submit"onclick="Alert()" class="btn black white-text waves-effect waves-light" >Ingresar</a>
                 </div>
                
             </form>
             <div class="section">
             <div class="divider"></div>
-            <h4 class="container">Indice</h4>
+            <h4 class="">Indice</h4>
             <div class="">
                  <ul class=" section table-of-contents">
                 <li><a href="#Donde">Donde Operamos</a></li>
@@ -85,8 +205,8 @@
            
             </div>
         </aside>
-    </div>
-    <div class="col l9  grey darken-4 white-text">
+    
+    <div class="col l9 right  grey darken-4 white-text">
         <div id="Donde" class=" scrollspy">
         <h3>Donde operamos</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, id! Alias minima sapiente, aperiam harum excepturi maxime amet vero. Iure exercitationem, quasi dolores ipsam impedit id architecto quibusdam maxime eveniet quia at. Dicta error eum totam reiciendis optio ex dignissimos, nostrum voluptatibus deserunt excepturi possimus similique. Esse odio tempore reprehenderit, odit impedit sint hic autem temporibus dignissimos doloremque a id labore, deleniti rerum. Ea tempore consectetur, sint ad quae eos ut non? Sit accusamus tempore quisquam placeat fugiat nemo! Dolor, libero magni laborum assumenda dolorum quam eos? Aspernatur necessitatibus, tempore aut explicabo sint earum accusantium minus! Ipsam ut tenetur fugit in minima ex porro nihil quaerat sit officia aut, at hic placeat, aliquid incidunt ea eveniet impedit. Nisi quos ipsam voluptate veniam quis quisquam voluptatibus eius cupiditate, sapiente temporibus architecto labore ipsum neque tempore dolore nihil? Iste numquam, quis sequi asperiores enim eius voluptate quaerat officia ipsa et qui consequuntur voluptates aliquid ratione expedita soluta itaque autem quae nostrum delectus in tempora culpa. Rem nesciunt blanditiis sed modi consectetur consequatur numquam minima labore rerum, dolore exercitationem similique voluptatum cumque odio earum illo fuga! Dolores repellendus modi, ab maxime laboriosam nostrum quidem, voluptatem impedit facere culpa sapiente? Non quas neque doloribus.</p>
@@ -132,21 +252,44 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla officia harum nam dolorem nesciunt amet optio illum repellat blanditiis dolor, non molestiae, asperiores id itaque ullam ad dicta dolores necessitatibus, ducimus reprehenderit a quidem dignissimos? Distinctio provident nostrum illo. Dignissimos sed laudantium excepturi non accusamus rerum expedita, molestiae corporis magnam. Sit totam accusamus sequi nesciunt placeat cum eveniet assumenda, rem qui ipsum dignissimos, obcaecati nam repellendus. Quas debitis aliquam ullam nesciunt! Quis sapiente earum incidunt quibusdam et voluptatum omnis quod tenetur reiciendis. Iure esse quibusdam rem dolores maiores accusantium? Cupiditate nemo consequuntur quam assumenda ab rerum aliquam possimus vitae, nisi ea architecto tempore non veniam eveniet minus nesciunt, natus sint eos nulla, libero totam ratione et itaque! Dicta qui consequuntur blanditiis aut nam perferendis provident et, accusamus aliquid consequatur eligendi nostrum repellat, voluptate error illo veritatis soluta at, deleniti rerum iusto. Sit nisi facilis minima nobis officia deserunt itaque ea quis veniam necessitatibus sunt facere rem iure deleniti esse debitis possimus quas, sed pariatur culpa explicabo modi, ipsa aperiam aliquid? Aut dolorem doloremque iusto dignissimos rem fugiat natus. Saepe ipsa sit quisquam voluptatibus odit distinctio nulla temporibus, cupiditate ducimus ut dicta quis nihil nisi commodi repellendus eaque reiciendis impedit, nostrum quaerat unde aperiam sequi? Error impedit ab vitae minima incidunt perspiciatis saepe consequatur, architecto, voluptate libero consequuntur aut nisi aliquid laboriosam quibusdam quasi praesentium at. Blanditiis at quasi error dolor qui ab doloribus a quidem magni delectus beatae, pariatur dignissimos officiis? At magni sit illo esse similique molestiae vel! Suscipit, velit quos. Officiis facere quo voluptatum eum odit, expedita, optio iusto assumenda similique, ipsum distinctio. Ipsa illum atque modi mollitia? Dolor porro magni hic, asperiores laudantium necessitatibus accusamus, quos non laboriosam illum eligendi aut quibusdam aliquam error, at facilis nam vel cupiditate atque optio commodi pariatur a. Sint, nesciunt consectetur!</p>
                 </div>
                 <div class="col l4">
-                <img src="" alt="">
+                <img  style="height:45em;"src="https://images.pexels.com/photos/1051077/pexels-photo-1051077.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"class="responsive-img materialboxed"  data-caption="Mapa"alt="">
                 </div>
             </div>
           
             
         </div>
     </div>
-    <div class="col 12 ">
-        <footer class="black page-footer">
-        sad
-        </footer>
-    </div>
 </div>
+ <footer class=" grey darken-4 page-footer">
+     <div class="container">
+         <div class=" row">
+             <div class="  col l8">
+                 <h6>Contactanos</h6>
+                 <p class=" grey-text  text-lighten-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut obcaecati laborum harum facilis iusto quam!</p>
+                 <ul>
+                     <li><a href="#" class=" grey-text  text-lighten-3 email">Estaestuempresa@gmail.com</a></li>
+                 </ul>
+             </div>
+             <div class= " col  l4">
+                <h6>Redes Sociales</h6>
+                <ul >
+                    <li><a class=" grey-text  text-lighten-3"href="#">Twitter</a></li>
+                    <li><a class=" grey-text  text-lighten-3"href="#">Facebook</a></li>
+                    <li><a class=" grey-text  text-lighten-3"href="#">Instagram</a></li>
+                    <li><a class=" grey-text  text-lighten-3"href="#">Whapsapp</a></li>
 
-
+                </ul>
+            </div>
+         </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Hecha el 16/10/2020 por JoseitoRF89
+                <a href="#"  class=" grey-text  text-lighten-2 right">Contacto del programador</a>
+            </div>
+        </div>
+        </footer>
+</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
@@ -162,9 +305,31 @@
     });
     var elems = document.querySelectorAll('.pushpin');
     var instances = M.Pushpin.init(elems,{
-        top:680
+         top:680,
+        bottom:1400,
     });
   });
+    </script>
+    <script>
+        window.addEventListener("load",()=>{
+  Fin=()=>{
+        var todo=document.getElementById("todo")
+        var Pre=document.getElementById("Preloader")
+                  todo.classList=""
+
+                  Pre.classList="hide"
+                  console.log("SD")
+            }
+            setTimeout(Fin(),3000)
+          
+        })
+        Alert=()=>{
+            M.toast({
+                html:"Procesando...",
+              
+                classes:"red "
+            })
+        }
     </script>
 </body>
 </html>
