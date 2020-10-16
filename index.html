@@ -3,391 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prueba Materialize</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-<header class="hide" id="p">
-    <div class="navbar-fixed" >
-        <nav class="blue">
-            <div class="nav-wrapper container  "> 
-                <a href="#1"class="brand-logo ">Logo</a>
-                <a href="#" data-target="prueb" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-               
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#">Opcion1</a></li>
-                    <li><a href="#">Opcion2</a></li>
-                    <li><a href="#">Opcion3</a></li>
-                    <li><a href="#" data-target="prueb2" class="dropdown-trigger">Opcion4<i class="material-icons right">arrow_drop_down</i></a></li>
+    <header>
+        <nav class=" grey darken-3">
+            <div class="nav-wrapper container">
+                <a href="#" data-target="Desplegable" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="#" class="brand-logo">Logo</a>
+                <ul class="hide-on-med-and-down right">
+                    <li><a href="#">Enlace1</a></li>
+                    <li><a href="#">Enlace2</a></li>
+                    <li><a href="#" data-target="Drop" class="dropdown-trigger"><i class="material-icons">arrow_drop_down</i></a></li>
                 </ul>
-            </div>
-            <ul  id="prueb"class="sidenav ">
-                <li><a href="#">Opcion1</a></li>
+            </div> 
+            <ul id="Desplegable" class="sidenav">
+                <li class="user-view">
+                <div class="background">
+                <img src="https://images.pexels.com/photos/35969/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="responsive-img" alt="">
+                </div>
+                <a href="#"><img class="circle" src="https://images.pexels.com/photos/5609026/pexels-photo-5609026.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></a>
+                <a  href="#" class="name"><span class="white-text">JoseitoRF89</span></a>
+                <a href="#" class="email"><span class="white-text">JoseitoRF89@gmail.com</span></a>
+                </li>
                 <li class="divider"></li>
-                <li><a href="#">Opcion2</a></li>
-                <li><a href="#">Opcion3</a></li>
-                <li><a href="#">Opcion4</a></li>
+                <li><a href="#">Enlace1</a></li>
+                <li><a href="#">Enlace2</a></li>
+                <li><a href="#">Enlace3</a></li>
+                <li><a href="#">Enlace4</a></li>
             </ul>
-            <ul  id="prueb2"class="dropdown-content">
-                <li><a href="#">Opcion1</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Opcion2</a></li>
-                <li><a href="#">Opcion3</a></li>
-                <li><a href="#">Opcion4</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<div class="center section" id="pre">
-<div class="preloader-wrapper big active">
-    <div class="spinner-layer spinner-red ">
-        <div class="circle-clipper left">
-            <div class="circle"></div>
-        </div>
-        <div class="gap-patch">
-            <div class="circle"></div>
-        </div>
-        <div class="circle-clipper right">
-            <div class="circle"></div>
-        </div>
-    </div>
-    <div class="spinner-layer spinner-blue">
-        <div class="circle-clipper left">
-            <div class="circle"></div>
-        </div>
-        <div class="gap-path">
-            <div class="circle"></div>
-        </div>
-        <div class="circle-clipper right">
-            <div class="circle"></div>
-        </div>
-    </div>
-    <div class="spinner-layer spinner-yellow">
-        <div class="circle-clipper left">
-            <div class="circle"></div>
-        </div>
-        <div class="gap-path">
-            <div class="circle"></div>
-        </div>
-        <div class="circle-clipper right">
-            <div class="circle"></div>
-        </div>
-    </div>
-    <div class="spinner-layer spinner-green">
-        <div class="circle-clipper left">
-            <div class="circle"></div>
-        </div>
-        <div class="gap-path">
-            <div class="circle"></div>
-        </div>
-        <div class="circle-clipper right">
-            <div class="circle"></div>
-        </div>
-    </div>
-</div>
-</div> 
 
-<div class="hide" id="Tu">
-    <div class="parallax">
-        <img src="https://images.pexels.com/photos/3660732/pexels-photo-3660732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+             <ul id="Drop"class=" teal white-text dropdown-content">
+                    <li><a class="white-text" href="#">Enlace1</a></li>
+                    <li><a class="white-text" href="#">Enlace2</a></li>
+                    <li><a class="white-text" href="#">Enlace3</a></li>
+                    <li><a  class="white-text"href="#">Enlace4</a></li>
+                </ul>
+        </nav>
+    </header>
+
+<div class="row">
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="calle.jpg" alt="">
+        </div>
+    </div>
+    <div class="col l12 black white-text">
+        <h5 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, minus ad. Reprehenderit molestias nisi excepturi debitis fugiat ea, ipsa impedit atque exercitationem tempora consequuntur animi ipsum dicta! Autem, facere dolores.</p>
+    </div>
+    <div class="col l3 teal lighten-1">
+        <aside style="width: 316px;margin-left: -11px;" class="teal lighten-2 pushpin section">  
+                <h3 class="container">Login</h3>
+            <form >
+             <div class="input-field">
+                <i class="material-icons prefix">login</i>
+                <input type="text"class="validated"  id="Usuario" autocomplete="on" required title="Ingrese Usuario">
+                <label for="Usuario">Ingrese Usuario</label>
+            </div>
+                <div class="input-field">
+                    <i class="material-icons prefix">vpn_key</i>
+                    <input type="password" id="Pass" class="validate" required title="Ingrese Contraseña">
+                    <label for="Pass">Ingrese Contraseña</label>
+                </div>
+                <div class="container"> 
+                    <a href="#"type="submit" class="btn black white-text waves-effect waves-light">Ingresar</a>
+                </div>
+               
+            </form>
+            <div class="section">
+            <div class="divider"></div>
+            <h4 class="container">Indice</h4>
+            <div class="">
+                 <ul class=" section table-of-contents">
+                <li><a href="#Donde">Donde Operamos</a></li>
+                <li><a href="#Quienes">Quienes Somos</a></li>
+                <li><a href="#ruta">Como llegar</a></li>  
+            </ul>
+             </div>
+           
+            </div>
+        </aside>
+    </div>
+    <div class="col l9  grey darken-4 white-text">
+        <div id="Donde" class=" scrollspy">
+        <h3>Donde operamos</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, id! Alias minima sapiente, aperiam harum excepturi maxime amet vero. Iure exercitationem, quasi dolores ipsam impedit id architecto quibusdam maxime eveniet quia at. Dicta error eum totam reiciendis optio ex dignissimos, nostrum voluptatibus deserunt excepturi possimus similique. Esse odio tempore reprehenderit, odit impedit sint hic autem temporibus dignissimos doloremque a id labore, deleniti rerum. Ea tempore consectetur, sint ad quae eos ut non? Sit accusamus tempore quisquam placeat fugiat nemo! Dolor, libero magni laborum assumenda dolorum quam eos? Aspernatur necessitatibus, tempore aut explicabo sint earum accusantium minus! Ipsam ut tenetur fugit in minima ex porro nihil quaerat sit officia aut, at hic placeat, aliquid incidunt ea eveniet impedit. Nisi quos ipsam voluptate veniam quis quisquam voluptatibus eius cupiditate, sapiente temporibus architecto labore ipsum neque tempore dolore nihil? Iste numquam, quis sequi asperiores enim eius voluptate quaerat officia ipsa et qui consequuntur voluptates aliquid ratione expedita soluta itaque autem quae nostrum delectus in tempora culpa. Rem nesciunt blanditiis sed modi consectetur consequatur numquam minima labore rerum, dolore exercitationem similique voluptatum cumque odio earum illo fuga! Dolores repellendus modi, ab maxime laboriosam nostrum quidem, voluptatem impedit facere culpa sapiente? Non quas neque doloribus.</p>
+        </div>
+        <div id="Quienes"class="section scrollspy">
+            <h3>Quienes Somos</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus provident, eius corporis enim obcaecati fugit, nobis officiis porro debitis labore consequatur, dignissimos illo ipsa sunt quod! Similique at expedita autem quaerat vitae doloribus voluptatum non aspernatur fugiat, quis reiciendis, minus excepturi suscipit, culpa omnis enim. Enim non magnam atque minima. Asperiores nisi explicabo fugiat tempora nostrum! Quam quo odit voluptate minima quod rem aperiam reprehenderit eos sequi. Placeat doloremque cupiditate rem praesentium! Similique delectus ullam optio consequuntur laudantium repellat harum impedit nisi magnam qui maiores labore deserunt sequi, odio pariatur. Dolor consequatur, et dignissimos ex, laboriosam iste molestias saepe quae suscipit corporis corrupti, itaque error omnis aperiam consectetur in exercitationem tempore! Dolorum saepe a adipisci sapiente sint corrupti ipsam iste dolor harum, et iusto earum corporis amet ducimus nihil eaque? Mollitia aliquid tempore architecto molestias repudiandae, esse dignissimos quam cupiditate soluta quis asperiores odio fugiat? Expedita molestias autem delectus quis neque quod veritatis obcaecati, voluptatum aperiam! At, odit officiis! Veritatis magni libero eligendi illum cumque tempore sunt, repudiandae inventore ullam itaque dignissimos sint ducimus harum, ex eius. Nesciunt eum saepe, facilis iste aspernatur eaque voluptas odio cupiditate beatae. Quisquam eaque non, officiis facilis illo nam deserunt mollitia quidem consequatur facere.</p>
+        </div>
+        <div  class="slider">
+           
+                <ul class="slides">
+                    <li>
+                        <img src="https://images.pexels.com/photos/5598028/pexels-photo-5598028.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        <div class="caption left-align">
+                            <h3>Nombre del negocio</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, at!</p>
+                        </div>
+
+                    </li>
+
+                    <li>
+                         <img src="https://images.pexels.com/photos/4177818/pexels-photo-4177818.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                         <div class="caption right-align">
+                             <h3>Donde Encontraras</h3>
+                             <p>Lorem ipsum dolor sit amet.</p>
+                         </div>
+                    </li>
+
+                    <li>
+                        <img src="https://images.pexels.com/photos/5189805/pexels-photo-5189805.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        <div class="caption center-align">
+                            <h3>Llamanos</h3>
+
+                        </div>
+                    </li>
+                </ul>
+            
+        </div>
+        <div id="ruta" class=" section scrollspy">
+            <div class="row">
+                <div class="col l8">
+             <h3>Como llegar</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla officia harum nam dolorem nesciunt amet optio illum repellat blanditiis dolor, non molestiae, asperiores id itaque ullam ad dicta dolores necessitatibus, ducimus reprehenderit a quidem dignissimos? Distinctio provident nostrum illo. Dignissimos sed laudantium excepturi non accusamus rerum expedita, molestiae corporis magnam. Sit totam accusamus sequi nesciunt placeat cum eveniet assumenda, rem qui ipsum dignissimos, obcaecati nam repellendus. Quas debitis aliquam ullam nesciunt! Quis sapiente earum incidunt quibusdam et voluptatum omnis quod tenetur reiciendis. Iure esse quibusdam rem dolores maiores accusantium? Cupiditate nemo consequuntur quam assumenda ab rerum aliquam possimus vitae, nisi ea architecto tempore non veniam eveniet minus nesciunt, natus sint eos nulla, libero totam ratione et itaque! Dicta qui consequuntur blanditiis aut nam perferendis provident et, accusamus aliquid consequatur eligendi nostrum repellat, voluptate error illo veritatis soluta at, deleniti rerum iusto. Sit nisi facilis minima nobis officia deserunt itaque ea quis veniam necessitatibus sunt facere rem iure deleniti esse debitis possimus quas, sed pariatur culpa explicabo modi, ipsa aperiam aliquid? Aut dolorem doloremque iusto dignissimos rem fugiat natus. Saepe ipsa sit quisquam voluptatibus odit distinctio nulla temporibus, cupiditate ducimus ut dicta quis nihil nisi commodi repellendus eaque reiciendis impedit, nostrum quaerat unde aperiam sequi? Error impedit ab vitae minima incidunt perspiciatis saepe consequatur, architecto, voluptate libero consequuntur aut nisi aliquid laboriosam quibusdam quasi praesentium at. Blanditiis at quasi error dolor qui ab doloribus a quidem magni delectus beatae, pariatur dignissimos officiis? At magni sit illo esse similique molestiae vel! Suscipit, velit quos. Officiis facere quo voluptatum eum odit, expedita, optio iusto assumenda similique, ipsum distinctio. Ipsa illum atque modi mollitia? Dolor porro magni hic, asperiores laudantium necessitatibus accusamus, quos non laboriosam illum eligendi aut quibusdam aliquam error, at facilis nam vel cupiditate atque optio commodi pariatur a. Sint, nesciunt consectetur!</p>
+                </div>
+                <div class="col l4">
+                <img src="" alt="">
+                </div>
+            </div>
+          
+            
+        </div>
+    </div>
+    <div class="col 12 ">
+        <footer class="black page-footer">
+        sad
+        </footer>
     </div>
 </div>
- <div class="hide" id="to">
-    <aside class="col s12 m3 l3 xl3 grey lighten-2">
-     <div class="card medium">
-         <div class="card-content">
-             <span class="card-title">TItulo</span>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam iusto minus vel odit provident magnam, culpa exercitationem? Ratione, est consequuntur?</p>
-         </div>
-         <div class="card-action">
-             <a href="#" class="btn ">Boton1</a>
-         </div>
-     </div>
-     <div class="card">
-         <div class="card-image">
-             <img src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-         </div>
-         <div class="card-content">
-             <span class="card-title">Prueba</span>
-             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi iure temporibus commodi eaque rerum autem.</p>
-         </div>
-         <div class="card-action">
-             <a href="#"class="btn blue waves-effect">Boton2</a>
-         </div>
-     </div>
-     <div class="card">
-         <div class="card-image">
-             <img src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-              <a href="#"class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
-             <span class="card-title">Hitu2</span>
-             
-         </div>
-         <div class="card-content">
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure consequatur soluta reiciendis earum temporibus, suscipit assumenda et voluptates, aliquid est natus non veniam delectus deserunt cum iusto praesentium vitae.</p>
-         </div>
-         
-     </div>
-     <div class="card">
-         <div class="card-image">
-            <img src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            
-           
-         </div>
-         <div class="card-content">
-             <span class="card-titlea activator">Hola <i class="material-icons right">add</i></span>
-             <p>Lorem ipsum dolor sit amet.</p>
-              
-         </div>
-         <div class="card-reveal">
-             <div class="card-content">
-                 <span class="card-title">Hola2<i class="material-icons right">close</i></span>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae expedita neque laudantium labore quos repudiandae recusandae maiores ipsam! Vitae, aperiam.</p>
-             </div>
-         </div>
-     </div>
-     <div class="card horizontal">
-         <div class="card-image">
-            <img src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-         </div>
-         <div class="card-content">
- <span class="card-title">asdasd</span>
- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem voluptatum et in! Dolor tempora at asperiores amet, consequatur iusto inventore enim obcaecati, debitis vitae aperiam sequi dolorum ab esse.</p>
-         </div>
-     </div>
-     <div class="card">
-         <div class="card-content">
-             <span class="card-title">hola</span>
-             <div class="card-tabs">
-            <ul class="tabs tabs-fixed-width">
-                <li class="tab"><a href="#D">1</a></li>
-                <li class="tab"><a class="active" href="#c">2</a></li>
-                <li class="tab"><a href="#f">3</a></li>
-            </ul>
-        </div>
-        <div class="card-content">
-            <div id="D">D</div>
-            <div id="c">c</div>
-            <div id="f">f</div>
-        </div>
-         </div>
-     </div>
-    </aside>
-    <section class="col s12 m9 l7 xl7  grey lighten-5">
-  <div class="row">
-      <div class="col s12 ">
-          <h1 class="container section">Cosas</h1>
-      </div>
-      <article> <div class="col s12 m6 l6 xl4 ">
-        <div class="card medium z-depth-3">
-            <div class="card-content">
-                <span class="card-title">TItulo</span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam iusto minus vel odit provident magnam, culpa exercitationem? Ratione, est consequuntur?</p>
-            </div>
-            <div class="card-action">
-                <a href="#" class="btn ">Boton1</a>
-            </div>
-        </div>
-      </div></article>
-     
-      <article><div class="col s12 m6 l6 xl4 ">
-        <div class="card medium">
-            <div class="card-image">
-                <img src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            </div>
-            <div class="card-content">
-                <span class="card-title">Prueba</span>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi iure temporibus commodi eaque rerum autem.</p>
-            </div>
-            <div class="card-action">
-                <a href="#"class="btn blue waves-effect">Boton2</a>
-            </div>
-        </div>
-       </div></article>
-      
-       <article><div class="col s12 m6 l6 xl4 ">
-        <div class="card medium">
-            <div class="card-image">
-                <img class="responsive-img" src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                 <a href="#"class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
-                <span class="card-title">Hitu2</span>
-                
-            </div>
-            <div class="card-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iure consequatur soluta reiciendis earum temporibus, suscipit assumenda et voluptates, aliquid est natus non veniam delectus deserunt cum iusto praesentium vitae.</p>
-            </div>
-            
-        </div>
-       </div></article>
-       
-       <article> <div class="col s12 m6 l6 xl4 ">
-        <div class="card medium">
-            <div class="card-content">
-                <span class="card-title">hola</span>
-                <div class="card-tabs">
-               <ul class="tabs tabs-fixed-width">
-                   <li class="tab"><a href="#e">1</a></li>
-                   <li class="tab"><a class="active" href="#t">2</a></li>
-                   <li class="tab"><a href="#q">3</a></li>
-               </ul>
-           </div>
-           <div class="card-content">
-               <div id="e">D</div>
-               <div id="t">c</div>
-               <div id="q">f</div>
-           </div>
-            </div>
-        </div>
-       </div></article>
-      
-       <article><div class="col s12 m6 l6 xl4 ">
-        <div class="card medium horizontal">
-            <div class="card-image">
-               <img src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            </div>
-            <div class="card-content">
-    <span class="card-title">asdasd</span>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem voluptatum et in! Dolor tempora at asperiores amet, consequatur iusto inventore enim obcaecati, debitis vitae aperiam sequi dolorum ab esse.</p>
-            </div>
-        </div>
-       </div></article>
-       
-       <article> <div class="col s12 m6 l6 xl4 ">
-        <div class="card medium">
-            <div class="card-image">
-               <img src="https://images.pexels.com/photos/3452554/pexels-photo-3452554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-               
-              
-            </div>
-            <div class="card-content">
-                <span class="card-titlea activator">Hola <i class="material-icons right">add</i></span>
-                <p>Lorem ipsum dolor sit amet.</p>
-                 
-            </div>
-            <div class="card-reveal">
-                <div class="card-content">
-                    <span class="card-title">Hola2<i class="material-icons right">close</i></span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae expedita neque laudantium labore quos repudiandae recusandae maiores ipsam! Vitae, aperiam.</p>
-                </div>
-            </div>
-        </div>
-       </div></article>
-      <article>
-          <div class="col s12 scrollspy" id="p1">
-            <h3>1</h3>
-            <blockquote class="section">Nota:Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex maxime numquam deserunt, nisi odit velit libero? Natus impedit, aperiam accusantium nostrum distinctio laborum voluptate recusandae et a consectetur nobis id sit quod dolores sapiente, necessitatibus similique laboriosam possimus dolorem?</blockquote>
-             <p class=" section flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repudiandae aut, corrupti officia porro doloremque harum facere necessitatibus, dolorum ad sapiente expedita. Magni et modi consequatur odio voluptatem. Repellendus, inventore.</p>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsa, a minus et modi cum recusandae rem odio necessitatibus laborum repellendus explicabo voluptates fugit, mollitia voluptatem numquam sed sunt ducimus!</p>
-          </div>
-          <div class="col s12  scrollspy" id="p2"    >
-            <h3>2</h3>
-            <blockquote class="section">Nota:Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex maxime numquam deserunt, nisi odit velit libero? Natus impedit, aperiam accusantium nostrum distinctio laborum voluptate recusandae et a consectetur nobis id sit quod dolores sapiente, necessitatibus similique laboriosam possimus dolorem?</blockquote>
-           <p class=" section flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repudiandae aut, corrupti officia porro doloremque harum facere necessitatibus, dolorum ad sapiente expedita. Magni et modi consequatur odio voluptatem. Repellendus, inventore.</p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsa, a minus et modi cum recusandae rem odio necessitatibus laborum repellendus explicabo voluptates fugit, mollitia voluptatem numquam sed sunt ducimus!</p>
-        </div>
-        <div class="col s12  scrollspy" id="p3">
-            <h3>3</h3>
-            <blockquote class="section">Nota:Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex maxime numquam deserunt, nisi odit velit libero? Natus impedit, aperiam accusantium nostrum distinctio laborum voluptate recusandae et a consectetur nobis id sit quod dolores sapiente, necessitatibus similique laboriosam possimus dolorem?</blockquote>
-           <p class=" section flow-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repudiandae aut, corrupti officia porro doloremque harum facere necessitatibus, dolorum ad sapiente expedita. Magni et modi consequatur odio voluptatem. Repellendus, inventore.</p>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsa, a minus et modi cum recusandae rem odio necessitatibus laborum repellendus explicabo voluptates fugit, mollitia voluptatem numquam sed sunt ducimus!</p>
-        </div>
-      </article>
-  </div>
-    </section>
-    <div class=" col  m1 l2 xl2 hide-on-med-and-down">
-        <h1>hok</h1>
-        <div class="row card-panel">
-            <form >
-                <div class="col 12 input-field">
-                    <i class="material-icons  prefix">account_circle</i>
-                    <input type="text" id="Usuario"class="validate autocomplete"  title="Ingrese Usuario" required>
-                    <label for="Usuario">Usuario</label>
-                </div>
-                <div class="col 12 input-field">
-                    <input type="password"class="validate autocomplete" id="pass" required title="Ingrese Contraseña">
-                    <label for="pass">Contraseña</label>
-                </div>
-            </form>
-        </div>
-        <div class="pinned"> <ul class=" table-of-contents">
-                <li><a href="#p1">p1</a></li>
-            </ul></div>
-           
-        
-      
-    </div>
-    <footer class="col s12 m12 l12 xl12 red">
-    <div class="row section">
-        <div class="col s3 ">
-         <a href="#" class="btn waves-effect waves-light disabled  light-blue accent-3 grey-text text-darken-3">Boton</a>
-        </div>
-        <div class="col s3">
-            <a href="#"  class="btn-flat waves-effect waves-darken white-text ">boton</a>
-        </div>
-        <div class="col s3">
-            <a class="btn-small orange black-text waves-effect waves-light" href="#">boton</a>
-        </div>
-        <div class="col s3">
-            <a  class="btn-floating btn-small waves-effect waves-light pulse" href="#"> <i class="material-icons">add</i></a>
-        </div>
-    </div>
-    </footer>
-    <div class="col s12">
-    <div class="fixed-action-btn toolbar">
-        <a class="btn-floating btn-large"><i class="material-icons">menu</i></a>
-        <ul>
-            <li> <a class="btn-floating "><i class="material-icons">menu</i></a></li>
-            <li> <a class="btn-floating "><i class="material-icons">menu</i></a></li>
-            <li> <a class="btn-floating "><i class="material-icons">menu</i></a></li>
-            <li> <a class="btn-floating "><i class="material-icons">menu</i></a></li>
-        </ul>
-    </div>
-    </div>
-</div> 
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
-   document.addEventListener('DOMContentLoaded', function(){
-            M.AutoInit()
-           
-        })
-        document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems,{
-        toolbarEnabled:true
-    });
-    var elems = document.querySelectorAll('.autocomplete');
-    var instances = M.Autocomplete.init(elems,{
-        data:{
-            "hola":null,
-            "huedo": 'https://placehold.it/250x250'
-        }
-        ,
-        onAutocomplete:function(){
-            console.log( document.getElementsByTagName("section"))
-            document.getElementsByTagName("section")[0].classList="hide"
-           
-        }
-    });
-    var elems = document.querySelectorAll('.scrollspy');
+    document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit();
+        var elems = document.querySelectorAll('.slider');
+         var instances = M.Slider.init(elems,{
+             indicators:false
+         });
+         var elems = document.querySelectorAll('.scrollspy');
     var instances = M.ScrollSpy.init(elems,{
-        scrollOffset:50
+        scrollOffset:0
     });
-  });
-  document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.pushpin');
-    var instances = M.Pushpin.init(elems);
+    var instances = M.Pushpin.init(elems,{
+        top:680
+    });
   });
     </script>
-    <script>
-      window.addEventListener("load",()=>{
-        setTimeout(P,4000)
-        function P(){
-            document.getElementById("pre").className="hide"
-            document.getElementById("to").className="row"
-            document.getElementById("Tu").className="parallax-container "
-            document.getElementById("p").className=" "
-        }
-        
-    })</script>
 </body>
 </html>
